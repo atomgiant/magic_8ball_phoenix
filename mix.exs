@@ -33,7 +33,7 @@ defmodule Magic8ballPhoenix.Mixfile do
      {:phoenix_html, "~> 2.1"},
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:cowboy, "~> 1.0"},
-     {:magic_8ball, "~> 0.1", git: "git@github.com:atomgiant/magic_8ball_api.git"},
+     {:magic_8ball, "~> 0.1", git: "git://github.com/atomgiant/magic_8ball_api"},
      # NOTE: In dev, you can use the following for local changes
      # {:magic_8ball, path: "../magic_8ball_api"},
     ]
