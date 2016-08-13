@@ -16,7 +16,7 @@ defmodule Magic8ballPhoenix.Router do
   scope "/", Magic8ballPhoenix do
     pipe_through :browser # Use the default browser stack
 
-    get "/", PageController, :index
+    get "/", PageController, :index, as: :root
   end
 
   scope "/magic8ball", Magic8ball do

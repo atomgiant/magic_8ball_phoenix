@@ -1,35 +1,17 @@
 <div class="jumbotron">
-  <h2>Welcome to Phoenix!</h2>
-  <p class="lead">A productive web framework that<br />does not compromise speed and maintainability.</p>
+  <h2>Seek enlightenment from the Magic8ball!</h2>
+  <p class="lead">Go ahead, ask anything with a yes / no answer and prepare to be enlightened.</p>
 </div>
 
 <div class="row marketing">
-  <div class="col-lg-6">
-    <h4>Resources</h4>
+  <div class="col-lg-12">
+    <h4>Check out the code</h4>
     <ul>
       <li>
-        <a href="http://phoenixframework.org/docs/overview">Guides</a>
+        <b>Magic8ball API</b> - <a href="https://github.com/atomgiant/magic_8ball_api">https://github.com/atomgiant/magic_8ball_api</a>
       </li>
       <li>
-        <a href="http://hexdocs.pm/phoenix">Docs</a>
-      </li>
-      <li>
-        <a href="https://github.com/phoenixframework/phoenix">Source</a>
-      </li>
-    </ul>
-  </div>
-
-  <div class="col-lg-6">
-    <h4>Help</h4>
-    <ul>
-      <li>
-        <a href="http://groups.google.com/group/phoenix-talk">Mailing list</a>
-      </li>
-      <li>
-        <a href="http://webchat.freenode.net/?channels=elixir-lang">#elixir-lang on freenode IRC</a>
-      </li>
-      <li>
-        <a href="https://twitter.com/elixirphoenix">@elixirphoenix</a>
+        <b>Magic8ball Phoenix</b> - <a href="https://github.com/atomgiant/magic_8ball_phoenix">https://github.com/atomgiant/magic_8ball_phoenix</a>
       </li>
     </ul>
   </div>

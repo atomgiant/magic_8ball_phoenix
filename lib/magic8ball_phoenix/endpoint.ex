@@ -1,5 +1,5 @@
 defmodule Magic8ballPhoenix.Endpoint do
-  use Phoenix.Endpoint, otp_app: :magic_8ball_phoenix
+  use Phoenix.Endpoint, otp_app: :magic8ball_phoenix
 
   socket "/socket", Magic8ballPhoenix.UserSocket
 
@@ -8,7 +8,7 @@ defmodule Magic8ballPhoenix.Endpoint do
   # You should set gzip to true if you are running phoenix.digest
   # when deploying your static files in production.
   plug Plug.Static,
-    at: "/", from: :magic_8ball_phoenix, gzip: false,
+    at: "/", from: :magic8ball_phoenix, gzip: false,
     only: ~w(css fonts images js favicon.ico robots.txt)
 
   # Code reloading can be explicitly enabled under the
@@ -32,7 +32,7 @@ defmodule Magic8ballPhoenix.Endpoint do
 
   plug Plug.Session,
     store: :cookie,
-    key: "_magic_8ball_phoenix_key",
+    key: "_magic8ball_phoenix_key",
     signing_salt: "SAw5Z+nH"
 
   plug Magic8ballPhoenix.Router

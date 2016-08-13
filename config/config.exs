@@ -6,7 +6,7 @@
 use Mix.Config
 
 # Configures the endpoint
-config :magic_8ball_phoenix, Magic8ballPhoenix.Endpoint,
+config :magic8ball_phoenix, Magic8ballPhoenix.Endpoint,
   url: [host: "localhost"],
   root: Path.dirname(__DIR__),
   secret_key_base: "kF0ZXAufjWDWl7aAQ66JM2/LeA75aJKZsgPE9w2xp2miiQu9TDG7QS9UQAozg/un",
