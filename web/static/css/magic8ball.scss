@@ -1,0 +1,23 @@
+.text-center {
+  text-align: center;
+}
+.magic8ball-wrapper {
+  width: 750px;
+  margin: 0 auto;
+  position: relative;
+  img {
+    width: 750px;
+  }
+  .magic8ball-answer {
+    color: #bbb;
+    font-family: Helvetica;
+    font-size: 18px;
+    position: absolute;
+    width: 125px;
+    top: 300px;
+    left: 310px;
+
+    margin: 0 auto;
+    text-align: center;
+  }
+}

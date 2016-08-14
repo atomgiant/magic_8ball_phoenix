@@ -6,7 +6,7 @@ defmodule Magic8ballPhoenix.PageController do
     answer = Magic8ballClient.shake(url)
 
     conn
-    |> put_flash(:info, answer)
+    |> assign(:answer, answer)
     |> render("index.html")
   end
 end
