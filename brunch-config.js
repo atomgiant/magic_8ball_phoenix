@@ -48,20 +48,7 @@ exports.config = {
       }
     }
   },
-  modules: {
-    autoRequire: {
-      "js/app.js": [
-        "bootstrap-sass", // require bootstrap-sass' JavaScript globally
-        "web/static/js/app"
-      ]
-    }
-  },
   npm: {
-    enabled: true,
-    whitelist: ["phoenix", "phoenix_html", "jquery", "bootstrap-sass"], // pull jquery and bootstrap-sass in as front-end assets
-    globals: { // bootstrap-sass' JavaScript requires both '$' and 'jQuery' in global scope
-      $: 'jquery',
-      jQuery: 'jquery'
-    }
+    enabled: true
   }
 };
