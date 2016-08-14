@@ -25,9 +25,13 @@ This code is used to highlight elements of building APIs with Elixir using Plug 
 
   http://localhost:4000
 
-1. Call the apiOpen the app in your browser
+1. Call the Magic8ball shake api to test it:
 
   ```
-  curl "127.0.0.1:4000/magic8ball/api/shake"
+  curl -H 'Content-Type: application/json' "localhost:4000/magic8ball/api/shake"
+  ```
+
+  ```json
+  {"answer":"My sources say no"}%
   ```
 
