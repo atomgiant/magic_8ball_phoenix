@@ -18,7 +18,7 @@ This code is used to highlight elements of building APIs with Elixir using Plug 
 1. Start the Phoenix server
 
   ```
-  iex -S phoenix.server
+  iex -S mix phoenix.server
   ```
 
 1. Open the app in your browser
